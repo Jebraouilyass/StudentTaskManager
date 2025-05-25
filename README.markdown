@@ -3,8 +3,8 @@
 A simple web-based task management application built with F#, Giraffe, and SQLite. Allows users to create, view, update, and delete tasks via a clean interface styled with Tailwind CSS.
 
 ## Screenshots
-![Task Manager UI](docs/images/screenshot1.PNG)
-![Adding a Task](docs/images/screenshot2.png)
+![Task Manager UI](images/screenshot1.PNG)
+![Adding a Task](images/screenshot2.png)
 
 ## Features
 - Add new tasks with a title and due date.
