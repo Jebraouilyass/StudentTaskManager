@@ -4,7 +4,7 @@ A simple web-based task management application built with F#, Giraffe, and SQLit
 
 ## Screenshots
 ![Task Manager UI](images/screenshot1.PNG)
-![Adding a Task](images/screenshot2.PNG)
+![Adding a Task](images/screenshot2.png)
 
 ## Features
 - Add new tasks with a title and due date.
