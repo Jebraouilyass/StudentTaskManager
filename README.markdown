@@ -45,7 +45,7 @@ A simple web-based task management application built with F#, Giraffe, and SQLit
 
 ## Deployment
 - **Frontend**: The static `docs/index.html` is deployed on GitHub Pages at `https://Jebraouilyass.github.io/StudentTaskManager` from the `docs/` folder on the `main` branch.
-- **Backend**: Deployed on Render at `https://student-task-manager.onrender.com`. The GitHub Pages frontend uses this URL for API calls. The backend also serves `index.html` from the root for testing at `https://student-task-manager.onrender.com`.
+- **Backend**: Deployed on Render at `https://studenttaskmanager.onrender.com`. The GitHub Pages frontend uses this URL for API calls. The backend also serves `index.html` from the root for testing at `https://studenttaskmanager.onrender.com`.
 - **Live Site**: Access the full application at `https://Jebraouilyass.github.io/StudentTaskManager` with the backend hosted on Render.
 
 ## Hosting on Render
@@ -54,7 +54,7 @@ A simple web-based task management application built with F#, Giraffe, and SQLit
    - Environment: Docker
    - Branch: main
    - Instance Type: Free tier
-3. Deploy and note the Render URL (e.g., `https://student-task-manager.onrender.com`).
+3. Deploy and note the Render URL (e.g., `https://studenttaskmanager.onrender.com`).
 4. Update `docs/index.html` to use the Render URL for API calls.
 5. Ensure `Program.fs` allows CORS for `https://Jebraouilyass.github.io` and serves `index.html`.
 
