@@ -15,7 +15,7 @@ module Program
          builder.Services.AddCors(fun options ->
              options.AddPolicy("AllowGitHubPages", fun builder ->
                  builder
-                     .WithOrigins("https://Jebraouilyass.github.io")
+                     .WithOrigins("https://Jebraouilyass.github.io", "http://localhost:5000")
                      .AllowAnyMethod()
                      .AllowAnyHeader()
                  |> ignore
