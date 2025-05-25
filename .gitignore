@@ -1,0 +1,22 @@
+# .NET Core
+   bin/
+   obj/
+   *.user
+   *.suo
+   *.csproj.user
+   *.dotsettings
+   *.DotSettings.user
+
+   # SQLite database
+   *.db
+   *.db-shm
+   *.db-wal
+
+   # Visual Studio/VS Code
+   .vscode/
+   .vs/
+   *.code-workspace
+
+   # NuGet
+   packages/
+   *.nupkg
