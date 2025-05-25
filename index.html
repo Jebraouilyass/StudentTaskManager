@@ -56,7 +56,7 @@
         }
 
         async function toggleTask(id, isCompleted) {
-            await fetch(`https://student-task-manager.onrender.com/api/tasks/${id}`, {
+            await fetch(`https://studenttaskmanager.onrender.com/api/tasks/${id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(isCompleted)
