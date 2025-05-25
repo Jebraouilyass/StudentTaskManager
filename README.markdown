@@ -20,7 +20,7 @@
    ## Setup and Installation
    1. Clone the repository:
       ```bash
-      git clone https://github.com/yourusername/StudentTaskManager.git
+      git clone https://github.com/Jebraouilyass/StudentTaskManager.git
       cd StudentTaskManager
       ```
    2. Restore dependencies:
@@ -44,11 +44,11 @@
    - **Delete a Task**: Click the "Delete" button next to a task to remove it.
 
    ## Deployment
-   - **Frontend**: The static `index.html` is deployed on GitHub Pages at `https://yourusername.github.io/StudentTaskManager` from the `docs/` folder on the `main` branch.
+   - **Frontend**: The static `index.html` is deployed on GitHub Pages at `https://Jebraouilyass.github.io/StudentTaskManager` from the `docs/` folder on the `main` branch.
    - **Backend**:
      - **Local**: Run `dotnet run` on the `main` branch and use `http://localhost:5000/api/tasks` in `docs/index.html` for API calls.
      - **Cloud**: Deploy the backend to a service like Render (`https://student-task-manager.onrender.com`) and update `docs/index.html` to use the cloud URL.
-   - **Live Site**: Access the full application at `https://yourusername.github.io/StudentTaskManager` with the backend hosted locally or on a cloud service.
+   - **Live Site**: Access the full application at `https://Jebraouilyass.github.io/StudentTaskManager` with the backend hosted locally or on a cloud service.
 
    ## Project Structure
    - `docs/index.html`: Static frontend for GitHub Pages.
