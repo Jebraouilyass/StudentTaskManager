@@ -18,7 +18,7 @@
     </div>
     <script>
         async function loadTasks() {
-            const response = await fetch('http://localhost:5000/api/tasks');
+            const response = await fetch('https://studenttaskmanager.onrender.com/api/tasks');
             const tasks = await response.json();
             const taskList = document.getElementById('taskList');
             taskList.innerHTML = '';
@@ -44,7 +44,7 @@
             const description = document.getElementById('taskDescription').value;
             const dueDate = document.getElementById('dueDate').value;
             if (description && dueDate) {
-                await fetch('http://localhost:5000/api/tasks', {
+                await fetch('https://studenttaskmanager.onrender.com/api/tasks', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ description, dueDate })
@@ -56,7 +56,7 @@
         }
 
         async function toggleTask(id, isCompleted) {
-            await fetch(`http://localhost:5000/api/tasks/${id}`, {
+            await fetch(`https://student-task-manager.onrender.com/api/tasks/${id}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(isCompleted)
@@ -65,7 +65,7 @@
         }
 
         async function deleteTask(id) {
-            await fetch(`http://localhost:5000/api/tasks/${id}`, {
+            await fetch(`https://studenttaskmanager.onrender.com/api/tasks/${id}`, {
                 method: 'DELETE'
             });
             loadTasks();
